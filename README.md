@@ -65,25 +65,7 @@ DB_PASSWORD=
 php artisan key:generate
 ```
 
-#### 5. Install frontend dependencies
-
-```bash
-npm install
-```
-
-#### 6. Compile assets
-
-```bash
-npm run dev
-```
-
-For production:
-
-```bash
-npm run build
-```
-
-#### 7. Run database migrations
+#### 5. Run database migrations
 
 ```bash
 php artisan migrate
@@ -95,7 +77,7 @@ If you want to seed the database with sample data:
 php artisan db:seed
 ```
 
-#### 8. Start the development server
+#### 6. Start the development server
 
 ```bash
 php artisan serve
